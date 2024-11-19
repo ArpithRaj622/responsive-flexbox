@@ -1,0 +1,94 @@
+header{
+    text-align: center;
+}
+
+header > h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(2, 119, 2);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.slogan{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(2, 119, 2);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dlv_time{
+    font-size: 25px;
+    color: rgb(2, 119, 2);
+    margin-top: 0;
+}
+
+.plans-container{
+    display: flex;
+    gap: 20px;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(240, 188, 46);
+}
+.price{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+
+.gold-plan, .platinum-plan, .diamond-plan{
+    color: white;
+    font-weight: bold;
+    flex : 1;
+    max-width: 300px;
+    background-color: seagreen;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.gold-plan, .platinum-plan{
+    padding-bottom: 25px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.booking{
+    border: none;
+    background-color: goldenrod;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+main > p{
+    padding-top: 40px;
+}
+
+@media(max-width:800px){
+    .plans-container{
+        flex-direction: column;
+        height:100%
+    }
+    header > h1{
+        font-size: 35px;
+    }
+    .slogan{
+        font-size: 15px;
+    }
+    .dlv_time{
+        font-size: 20px;
+    }
+}
